@@ -1,0 +1,133 @@
+.wrapper{
+    width:1024px;
+    margin:2px auto;
+}
+.header{
+    border-bottom: 1px solid black;
+    height:58px;
+}
+.logo{
+    background:#465360;
+    margin-bottom: 0;
+}
+.container-fluid .brand{
+    padding:20px 70px 20px 60px;
+    
+    
+}
+.logo li{
+    list-style: none;
+    line-height: 10px;
+}
+.logo-sign{
+    text-decoration: none;
+    position:relative;
+}
+.logo-sign:before{
+    width:22px;
+    height:22px;
+    background:url(images/logo.png) no-repeat;
+    content:"";
+    top:3px;
+    left:-40px;
+    display:block;
+    position:absolute;
+}
+
+.apple{
+    color:white;
+    font-size: 12px;
+}
+.net-url{
+    color:#9da9b4;
+    font-size: 11px;
+}
+.mynav{
+    
+    height:inherit;
+    margin-left: 0;
+}
+.arrow{
+    width:10px;
+    height: 8px;
+    background:url(images/arrow.png) no-repeat;
+    border:none;
+    position:relative;
+    top:-7px;
+    left:50px;
+}
+.new_ques{
+    position:relative;
+}
+.new_ques:before{
+    width:15px;
+    height:15px;
+    background:url(images/plus.png) no-repeat;
+    content:"";
+    display:block;
+    position:absolute;
+    left:-20px;
+    top:-12px;
+}
+.nav{
+    padding:0 20px;
+}
+.nav li a.new_ques_1{
+    padding:10px 10px 10px 32px;
+    background:#3285c5;
+    color:white;
+    border-radius:3px;
+}
+.nav li a.new_ques_1:hover{
+    background:#2c75ad;
+    color:white;
+}
+.nav li{
+    padding:13px 0;
+}
+.nav li.mynav{
+    padding:22px 0;
+}
+.nav{
+    background:#3a4957;
+}
+.nav li.mynav a:hover{
+    color:white;
+}
+.nav li.mynav a{
+    color:#a4b0bc;
+    padding:0 17px;
+}
+.nav li.mynav a{
+    border-right: 2px dashed #2a333b;
+}
+.new_q{
+    margin-right: 15px;
+}
+.nav .profile{
+    margin-left: 134px;
+    padding:18px 0;
+}
+.navbar-inner{
+    padding-left: 208px;
+    padding-right: 208px;
+    border-bottom: none;
+    box-shadow:none;
+}
+.arrow1{
+    width:10px;
+    height: 8px;
+    background:url(images/arrow.png) no-repeat;
+    border:none;
+    position:relative;
+    top:0px;
+    left:13px;
+}
+.nav .profile .profile-a{
+    background:#2a3642;
+    padding:5px 20px;
+}
+.nav{
+    font-size: 13px;
+    
+}
